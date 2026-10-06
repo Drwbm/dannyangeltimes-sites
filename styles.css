@@ -373,3 +373,77 @@ h6 {
   color: #ffffff !important;
   border-color: #0b1f3a !important;
 }
+.contact-card {
+  background: #062b5c;
+  color: #ffffff;
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 30px 25px;
+  border-radius: 18px;
+  text-align: center;
+  border: 2px solid #1e5aa8;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+.contact-card img {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  background: #ffffff;
+  padding: 5px;
+}
+
+.contact-card h3 {
+  color: #ffffff;
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.contact-card p {
+  color: #e8f1ff;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.contact-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 15px 0;
+  font-size: 17px;
+}
+
+.contact-line strong {
+  color: #66b3ff;
+  font-size: 22px;
+}
+
+.contact-line a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-line a:hover {
+  color: #66b3ff;
+}
+
+.whatsapp {
+  display: block;
+  background: #1683e8;
+  color: #ffffff !important;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 14px 20px;
+  margin-top: 25px;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.whatsapp:hover {
+  background: #0d6dcc;
+}
