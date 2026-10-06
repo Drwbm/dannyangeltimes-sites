@@ -447,3 +447,17 @@ h6 {
 .whatsapp:hover {
   background: #0d6dcc;
 }
+.logo {
+  font-weight: 800;
+  color: #ffffff !important;
+}
+
+.logo span:first-child {
+  color: #ffffff !important;
+  font-weight: 800;
+}
+
+.logo span:last-child {
+  color: #ffd21f !important;
+  font-weight: 800;
+}
