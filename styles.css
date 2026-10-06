@@ -113,3 +113,83 @@ h6 {
 .cookie-policy h3 {
   color: #111;
 }
+/* ===== TEXT VISIBILITY FIX ===== */
+
+body,
+body * {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Normal text */
+p,
+li,
+span,
+label,
+a {
+  color: #222222 !important;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #111111 !important;
+}
+
+/* Dark sections */
+.dark-section,
+.dark-section p,
+.dark-section li,
+.dark-section span,
+.dark-section h1,
+.dark-section h2,
+.dark-section h3,
+.dark-section h4,
+.dark-section a {
+  color: #ffffff !important;
+}
+
+/* Hero section */
+.hero,
+.hero p,
+.hero span,
+.hero h1,
+.hero h2,
+.hero h3 {
+  color: #ffffff !important;
+}
+
+/* Footer */
+.footer,
+.footer p,
+.footer span,
+.footer a,
+.footer strong {
+  color: #ffffff !important;
+}
+
+/* Cookie Policy */
+.cookie-policy,
+.cookie-policy p,
+.cookie-policy li,
+.cookie-policy h1,
+.cookie-policy h2,
+.cookie-policy h3,
+.cookie-policy a {
+  opacity: 1 !important;
+  color: #222222 !important;
+}
+
+/* Form text */
+.contact-form,
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  opacity: 1 !important;
+  color: #222222 !important;
+}
