@@ -67,14 +67,17 @@ input:focus,select:focus,textarea:focus{border-color:var(--blue)}
 @media(max-width:560px){
   .brand span{font-size:.86rem}.brand img{width:40px;height:40px}.hero-content{padding-top:130px}.section{padding:75px 6%}.cards{grid-template-columns:1fr}h1{font-size:2.75rem}.trust-row{gap:20px}.about-grid,.portfolio-grid,.contact-grid{gap:25px}.footer{flex-direction:column;gap:15px}
 }
-/* Make website text clearer */
+/* =========================
+   TEXT VISIBILITY
+========================= */
+
 body {
-  color: #222;
+  color: #222222;
 }
 
 p,
 li {
-  color: #333;
+  color: #333333;
 }
 
 h1,
@@ -83,8 +86,123 @@ h3,
 h4,
 h5,
 h6 {
-  color: #111;
+  color: #111111;
 }
+
+/* =========================
+   PROCESS SECTION
+========================= */
+
+.process {
+  padding: 80px 20px;
+  background: #ffffff;
+  color: #111827;
+  text-align: center;
+}
+
+.process h2 {
+  color: #111827;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 45px;
+}
+
+.steps {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.process .card {
+  background: #ffffff;
+  padding: 32px 25px;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.process .number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #111827;
+  color: #ffffff !important;
+  font-weight: 800;
+}
+
+.process .card h3 {
+  color: #111827 !important;
+  font-size: 21px;
+  font-weight: 750;
+  margin-bottom: 12px;
+}
+
+.process .card p {
+  color: #4b5563 !important;
+  opacity: 1 !important;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   WHAT WE FOCUS ON
+========================= */
+
+.focus {
+  padding: 80px 20px;
+  background: #f8fafc;
+  color: #111827;
+  text-align: center;
+}
+
+.focus h2 {
+  color: #111827 !important;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 45px;
+}
+
+.focus-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+.focus-item {
+  background: #ffffff;
+  padding: 30px 22px;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.07);
+}
+
+.focus-item h3 {
+  color: #111827 !important;
+  font-size: 20px;
+  font-weight: 750;
+  margin-bottom: 12px;
+}
+
+.focus-item p {
+  color: #4b5563 !important;
+  opacity: 1 !important;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+
+/* =========================
+   DARK SECTIONS
+========================= */
 
 .dark-section p,
 .dark-section li {
@@ -98,98 +216,89 @@ h6 {
   color: #ffffff;
 }
 
-.footer p,
-.footer a {
-  color: #e5e7eb;
-}
 
-.cookie-policy p,
-.cookie-policy li {
-  color: #333;
-}
+/* =========================
+   HERO
+========================= */
 
-.cookie-policy h1,
-.cookie-policy h2,
-.cookie-policy h3 {
-  color: #111;
-}
-/* ===== TEXT VISIBILITY FIX ===== */
-
-body,
-body * {
-  opacity: 1 !important;
-  filter: none !important;
-}
-
-/* Normal text */
-p,
-li,
-span,
-label,
-a {
-  color: #222222 !important;
-}
-
-/* Headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #111111 !important;
-}
-
-/* Dark sections */
-.dark-section,
-.dark-section p,
-.dark-section li,
-.dark-section span,
-.dark-section h1,
-.dark-section h2,
-.dark-section h3,
-.dark-section h4,
-.dark-section a {
-  color: #ffffff !important;
-}
-
-/* Hero section */
 .hero,
 .hero p,
 .hero span,
 .hero h1,
 .hero h2,
 .hero h3 {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
-/* Footer */
-.footer,
+
+/* =========================
+   FOOTER
+========================= */
+
 .footer p,
-.footer span,
 .footer a,
+.footer span,
 .footer strong {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
-/* Cookie Policy */
-.cookie-policy,
+
+/* =========================
+   COOKIE POLICY
+========================= */
+
 .cookie-policy p,
-.cookie-policy li,
+.cookie-policy li {
+  color: #333333;
+}
+
 .cookie-policy h1,
 .cookie-policy h2,
-.cookie-policy h3,
-.cookie-policy a {
-  opacity: 1 !important;
-  color: #222222 !important;
+.cookie-policy h3 {
+  color: #111111;
 }
 
-/* Form text */
-.contact-form,
+
+/* =========================
+   FORM
+========================= */
+
 .contact-form label,
 .contact-form input,
 .contact-form textarea,
 .contact-form select {
-  opacity: 1 !important;
-  color: #222222 !important;
+  color: #222222;
+  opacity: 1;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 900px) {
+  .steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .focus-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .process,
+  .focus {
+    padding: 60px 16px;
+  }
+
+  .process h2,
+  .focus h2 {
+    font-size: 28px;
+  }
+
+  .steps,
+  .focus-grid {
+    grid-template-columns: 1fr;
+  }
 }
