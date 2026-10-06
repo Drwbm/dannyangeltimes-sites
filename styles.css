@@ -67,3 +67,49 @@ input:focus,select:focus,textarea:focus{border-color:var(--blue)}
 @media(max-width:560px){
   .brand span{font-size:.86rem}.brand img{width:40px;height:40px}.hero-content{padding-top:130px}.section{padding:75px 6%}.cards{grid-template-columns:1fr}h1{font-size:2.75rem}.trust-row{gap:20px}.about-grid,.portfolio-grid,.contact-grid{gap:25px}.footer{flex-direction:column;gap:15px}
 }
+/* Make website text clearer */
+body {
+  color: #222;
+}
+
+p,
+li {
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #111;
+}
+
+.dark-section p,
+.dark-section li {
+  color: #e5e7eb;
+}
+
+.dark-section h1,
+.dark-section h2,
+.dark-section h3,
+.dark-section h4 {
+  color: #ffffff;
+}
+
+.footer p,
+.footer a {
+  color: #e5e7eb;
+}
+
+.cookie-policy p,
+.cookie-policy li {
+  color: #333;
+}
+
+.cookie-policy h1,
+.cookie-policy h2,
+.cookie-policy h3 {
+  color: #111;
+}
