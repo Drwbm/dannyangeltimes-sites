@@ -491,40 +491,47 @@ header .brand b {
   font-weight: 800 !important;
   opacity: 1 !important;
 }
-/* Mobile menu */
+/* ===== MOBILE MENU FIX ===== */
 @media (max-width: 768px) {
-  .nav {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background: #050914;
-    padding: 20px;
-    flex-direction: column;
-    gap: 15px;
-    z-index: 9999;
-  }
 
-  .nav.active {
-    display: flex;
-  }
-
-  .nav a {
-    color: #ffffff !important;
-    font-weight: 700;
-    text-decoration: none;
-    padding: 12px;
-    display: block;
+  .site-header {
+    position: relative !important;
   }
 
   .menu-btn {
-    display: block;
-    background: transparent;
-    border: none;
-    color: #ffffff;
-    font-size: 36px;
-    cursor: pointer;
-    z-index: 10000;
+    display: block !important;
+    position: relative !important;
+    z-index: 10001 !important;
+    background: transparent !important;
+    border: none !important;
+    color: #ffffff !important;
+    font-size: 36px !important;
+    cursor: pointer !important;
+  }
+
+  .nav {
+    display: none !important;
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    width: 100% !important;
+    background: #050914 !important;
+    padding: 20px !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    z-index: 10000 !important;
+    box-sizing: border-box !important;
+  }
+
+  .nav.active {
+    display: flex !important;
+  }
+
+  .nav a {
+    display: block !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    padding: 14px !important;
+    text-decoration: none !important;
   }
 }
