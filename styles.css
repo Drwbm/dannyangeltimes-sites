@@ -485,12 +485,9 @@ h6 {
     opacity: 1 !important;
   }
 </style>
-header .brand {
+header .brand,
+header .brand b {
   color: #0066ff !important;
   font-weight: 800 !important;
   opacity: 1 !important;
-}
-
-header .brand b {
-  color: #0066ff !important;
 }
